@@ -14,4 +14,5 @@ public class BankAcccountRequestDTO {
     private Double balance;
     private String currency;
     private AccountType type;
+    private String customerId;
 }

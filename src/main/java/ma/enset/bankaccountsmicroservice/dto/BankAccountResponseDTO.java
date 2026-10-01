@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import ma.enset.bankaccountsmicroservice.entities.Customer;
 import ma.enset.bankaccountsmicroservice.enums.AccountType;
 
 import java.util.Date;
@@ -16,4 +17,5 @@ public class BankAccountResponseDTO {
     private Double balance;
     private String currency;
     private AccountType type;
+    private Customer customer;
 }
